@@ -7,4 +7,5 @@ Se encuentra en las librerías de Arduino en una carpeta llamada src, reemplazan
 
 
 En linux: ~/Arduino/libraries/Keyboard/src/
+
 En Windows: C:\Users\TU_USUARIO\Documents\Arduino\libraries\Keyboard\src\
