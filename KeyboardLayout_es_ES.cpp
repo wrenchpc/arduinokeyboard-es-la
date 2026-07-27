@@ -42,7 +42,7 @@ extern const uint8_t KeyboardLayout_es_ES[128] PROGMEM =
 	0x2c,          // ' '
 	0x1e|SHIFT,    // !
 	0x1f|SHIFT,    // "
-	0x20|ALT_GR,   // #
+	0x20|SHIFT,    // #   Modificado al latino
 	0x21|SHIFT,    // $
 	0x22|SHIFT,    // %
 	0x23|SHIFT,    // &
