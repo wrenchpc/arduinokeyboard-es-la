@@ -1,7 +1,7 @@
 /*
-  Keyboard_es_ES.h
+  Keyboard_es_LA.h
 
-  Copyright (c) 2026, WrenchPC
+  2026, WrenchPC
 */
 
 #ifndef KEYBOARD_ES_LA_h
