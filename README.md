@@ -10,4 +10,4 @@ En linux: ~/Arduino/libraries/Keyboard/src/
 
 En Windows: C:\Users\TU_USUARIO\Documents\Arduino\libraries\Keyboard\src\
 
-En sus proyectos donde usen esta adaptación llamenlo con la variable KeyboardLayout_es_LA
+En sus proyectos donde usen esta adaptación llamenlo con la variable KeyboardLayout_es_LATAM
