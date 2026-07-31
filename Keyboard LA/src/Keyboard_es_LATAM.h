@@ -1,11 +1,21 @@
 /*
- Keyboard_es_LA.h
+  Keyboard_es_LATAM.h -- Latin American Spanish keyboard
 
- -WrenchPC
+  Copyright (c) 2026, WrenchPC
 
- Soporte para teclado Español Latinoamericano (LATAM)
- Basado en revisión del layout oficial de España
- 2026
+  This library is free software; you can redistribute it and/or
+  modify it under the terms of the GNU Lesser General Public
+  License as published by the Free Software Foundation; either
+  version 2.1 of the License, or (at your option) any later version.
+
+  This library is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  Lesser General Public License for more details.
+
+  You should have received a copy of the GNU Lesser General Public
+  License along with this library; if not, write to the Free Software
+  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
 #ifndef KEYBOARD_ES_LATAM_h
@@ -19,14 +29,14 @@
 
 #else
 
-//  Keyboard - teclas especiales LATAM
+//================================================================================
+//================================================================================
+//  Keyboard
 
-#define KEY_MASCULINE_ORDINAL    (136+0x35)   // º
-#define KEY_INVERTED_EXCLAMATION (136+0x2e)   // ¡
-#define KEY_GRAVE                (136+0x2f)   // ` (grave)
+// es_LATAM keys
+#define KEY_INVERTED_QUESTION    (136+0x2e)   // ¿
+#define KEY_ACUTE                (136+0x2f)   // dead acute accent
 #define KEY_N_TILDE              (136+0x33)   // Ñ
-#define KEY_ACUTE                (136+0x34)   // ´ (acento agudo)
-// #define KEY_C_CEDILLA         (136+0x31)   // Ç → No se usa en LATAM
 
 #endif
 #endif

@@ -1,11 +1,9 @@
 /*
- * Spanish keyboard layout modificado para Latinoamericano
- *
- * -WrenchPC
- *
- * Basado en el original en español de españa
- * 2026
- */
+Spanish keyboard layout modified for Latin America
+-WrenchPC
+Based on the original Spanish (Spain) layout
+2026 
+*/
 
 #include "KeyboardLayout.h"
 
@@ -76,7 +74,7 @@ extern const uint8_t KeyboardLayout_es_LATAM[128] PROGMEM =
 	0x27|SHIFT,    // =
 	0x32|SHIFT,    // >
 	0x2d|SHIFT,    // ?
-	0x1f|ALT_GR,   // @
+	0x14|ALT_GR,   // @
 	0x04|SHIFT,    // A
 	0x05|SHIFT,    // B
 	0x06|SHIFT,    // C
@@ -106,7 +104,7 @@ extern const uint8_t KeyboardLayout_es_LATAM[128] PROGMEM =
 	0x34|SHIFT,    // [
 	0x2d|ALT_GR,   // \ .
 	0x31|SHIFT,    // ]
-	0x2f|ALT_GR,   // ^
+	0x00,          // ^  not supported (requires dead key + space)
 	0x38|SHIFT,    // _
 	0x00,          // `  not supported
 	0x04,          // a
@@ -136,8 +134,8 @@ extern const uint8_t KeyboardLayout_es_LATAM[128] PROGMEM =
 	0x1c,          // y
 	0x1d,          // z
 	0x34,          // {
-	0x1e|ALT_GR,   // |
+	0x35,          // |
 	0x31,          // }
-	0x21|ALT_GR,   // ~
+	0x30|ALT_GR,   // ~
 	0x00           // DEL
 };
